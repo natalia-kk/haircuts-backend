@@ -32,7 +32,7 @@ app.use(fileUpload({ // allows our express server to handle file uploads
 // Ex11b - create home route
 // homepage
 app.get('/', (req, res) => {
-  res.send("Home")
+  res.send("Homepage")
 })
 
 // auth
